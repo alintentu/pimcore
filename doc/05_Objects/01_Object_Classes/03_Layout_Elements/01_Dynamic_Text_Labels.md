@@ -13,7 +13,12 @@ For all ways, the preview tab shows a preview of the generated content. If you a
 
 Let's consider the following example.
 
-It states that we want to use a custom renderer service which implements `DynamicTextLabelInterface` and in turn returns dynamic text string from `renderLayoutText` method. We also want to pass some additional data (*some additional data :)* in this example) to the rendering method.
+It states that we want to use a custom renderer service which implements `DynamicTextLabelInterface` and in turn returns dynamic text string from `renderLayoutText` method. We also want to pass some additional data (*some additional data :)* in this example) to the rendering method. 
+
+The "@" at the begining of the Custom renderer class should not be added!
+If you add the "@" this will not work.
+
+![image](https://github.com/pimcore/pimcore/assets/19413038/72d005ab-3f01-4e03-a269-c8106f802bc6)
 
 ![Class Definition](../../../img/dynamic_textlabel_1.png)
 
